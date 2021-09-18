@@ -16,10 +16,21 @@ stories:
   - intent: working
   - action: utter_working_confr
 
-- story: credit card negative path1
+- story: credit card nn path
   steps:
   - intent: greet
   - action: utter_greet
+  - intent: deny
+  - action: utter_rejection_response
+  - intent: deny
+  - action: utter_honorable_exit
+
+- story: credit card pnn path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_positive1_response
   - intent: deny
   - action: utter_rejection_response
   - intent: deny

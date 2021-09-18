@@ -18,6 +18,9 @@ responses:
   utter_rejection_response:
   - text: "It would take only a few minutes. May I continue?"
 
+  utter_positive1_response:
+  - text: "We are now offering different types of credit cards for our customers. \n Having our credit card can give you various benefits like welcome gifts, reward programs, fuel surcharge waiver, cashback benefits, travel benefits, add-on cards, emi conversions, etc. Based on our customer user experience we offer various different types of cards. \n Would you like to know about them?"
+
   utter_honorable_exit:
   - text: "Thank you for your time. \n Have a good day."
 
