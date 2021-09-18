@@ -30,12 +30,23 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: affirm
-  - action: utter_positive1_response
+  - action: utter_positive1_binary_response
   - intent: deny
   - action: utter_rejection_response
   - intent: deny
   - action: utter_honorable_exit
 
+- action: credit card ppnn path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_positive1_binary_response
+  - intent: affirm
+  - action: utter_positive2_multiple_response
+  - intent: multicheck1
+  - action: utter_card_type()
+  
 - story: intro_path
   steps:
   - intent: greet

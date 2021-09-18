@@ -17,6 +17,19 @@ nlu:
     - goodevening
     - good afternoon
 
+- intent: multicheck1
+  examples: |
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - none
+    - no
+    - nota
+    - none of the above
+
 # - intent: working
 #   examples: |
 #     - are you working fine
