@@ -16,6 +16,15 @@ stories:
   - intent: working
   - action: utter_working_confr
 
+- story: credit card negative path1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: deny
+  - action: utter_rejection_response
+  - intent: deny
+  - action: utter_honorable_exit
+
 - story: intro_path
   steps:
   - intent: greet

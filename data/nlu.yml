@@ -17,18 +17,18 @@ nlu:
     - goodevening
     - good afternoon
 
-- intent: working
-  examples: |
-    - are you working fine
-    - are you ok
-    - will you give correct output
-    - what is your gender
+# - intent: working
+#   examples: |
+#     - are you working fine
+#     - are you ok
+#     - will you give correct output
+#     - what is your gender
 
-- intent: info
-  examples: |
-    - Intro de apna
-    - Intro
-    - Intro de bosdike
+# - intent: info
+#   examples: |
+#     - Intro de apna
+#     - Intro
+#     - Intro de bosdike
     
 
 - intent: goodbye
@@ -62,7 +62,7 @@ nlu:
     - I don't think so
     - don't like that
     - no way
-    - not really
+    - not now
 
 - intent: mood_great
   examples: |

@@ -13,7 +13,13 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey there! I am a virtual assistant and I am here to clear your queries about credit card. \n Our company has launched its flagship credit card scheme. May I tell you about it?"
+
+  utter_rejection_response:
+  - text: "It would take only a few minutes. May I continue?"
+
+  utter_honorable_exit:
+  - text: "Thank you for your time. \n Have a good day."
 
   utter_working_confr:
   - text: "Yes Bro All Good"
