@@ -22,8 +22,8 @@ responses:
   utter_greet:
   - text: "Hey there! I am a virtual assistant and I am here to clear your queries about credit card. \n Our company has launched its flagship credit card scheme. May I tell you about it?"
 
-  utter_rejection_response:
-  - text: "It would take only a few minutes. May I continue?"
+  # utter_rejection_response:
+  # - text: "It would take only a few minutes. May I continue?"
 
   utter_positive1_binary_response:
   - text: "We are now offering different types of credit cards for our customers. \n Having our credit card can give you various benefits like welcome gifts, reward programs, fuel surcharge waiver, cashback benefits, travel benefits, add-on cards, emi conversions, etc. Based on our customer user experience we offer various different types of cards. \n Would you like to know about them?"
@@ -32,13 +32,13 @@ responses:
   - text: "Which of the following cards would you like to know about :- \n 1. Shopping credit cards \n 2. Lifestyle credit cards \n 3. Fuel credit cards \n 4. Rewards credit cards \n 5. Cashback credit cards \n 6. Travel credit cards"
 
   utter_great:
-  - text: "That's great! Your response has been noted. Our team member will contact you soon \n Have a great day."
+  - text: "That's great! Your response has been noted. Our team member will contact you soon .\n Have a great day."
 
   utter_rejection_exit:
-  - text: "That's fine. Please ping me whenever you would like to know about it"
+  - text: "That's fine. Please ping me whenever you change your mind"
   
-  utter_honorable_exit:
-  - text: "Thank you for your time. \n Have a good day."
+  # utter_honorable_exit:
+  # - text: "Thank you for your time. \n Have a good day."
 
   utter_card_rejection:
   - text: "Think again. I am sure you would never regret having one"
