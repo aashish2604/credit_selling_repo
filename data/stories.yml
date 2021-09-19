@@ -25,18 +25,16 @@ stories:
   - intent: deny
   - action: utter_honorable_exit
 
-- story: credit card pnn path
+- story: credit card pn path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: affirm
   - action: utter_positive1_binary_response
   - intent: deny
-  - action: utter_rejection_response
-  - intent: deny
-  - action: utter_honorable_exit
+  - action: utter_rejection_exit
 
-- action: credit card ppnn path
+- story: credit card ppnn1 path
   steps:
   - intent: greet
   - action: utter_greet
@@ -45,8 +43,165 @@ stories:
   - intent: affirm
   - action: utter_positive2_multiple_response
   - intent: multicheck1
-  - action: utter_card_type()
-  
+  - action: utter_card_type1
+  - intent: deny
+  - action: utter_card_rejection
+  - intent: deny
+  - action: utter_honorable_exit
+
+- story: credit card ppnn2 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_positive1_binary_response
+  - intent: affirm
+  - action: utter_positive2_multiple_response
+  - intent: multicheck2
+  - action: utter_card_type2
+  - intent: deny
+  - action: utter_card_rejection
+  - intent: deny
+  - action: utter_honorable_exit
+
+- story: credit card ppnn3 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_positive1_binary_response
+  - intent: affirm
+  - action: utter_positive2_multiple_response
+  - intent: multicheck3
+  - action: utter_card_type3
+  - intent: deny
+  - action: utter_card_rejection
+  - intent: deny
+  - action: utter_honorable_exit
+
+- story: credit card ppnn4 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_positive1_binary_response
+  - intent: affirm
+  - action: utter_positive2_multiple_response
+  - intent: multicheck4
+  - action: utter_card_type4
+  - intent: deny
+  - action: utter_card_rejection
+  - intent: deny
+  - action: utter_honorable_exit
+
+- story: credit card ppnn5 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_positive1_binary_response
+  - intent: affirm
+  - action: utter_positive2_multiple_response
+  - intent: multicheck5
+  - action: utter_card_type5
+  - intent: deny
+  - action: utter_card_rejection
+  - intent: deny
+  - action: utter_honorable_exit
+
+- story: credit card ppnn6 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_positive1_binary_response
+  - intent: affirm
+  - action: utter_positive2_multiple_response
+  - intent: multicheck6
+  - action: utter_card_type6
+  - intent: deny
+  - action: utter_card_rejection
+  - intent: deny
+  - action: utter_honorable_exit
+
+- story: credit card ppp1 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_positive1_binary_response
+  - intent: affirm
+  - action: utter_positive2_multiple_response
+  - intent: multicheck6
+  - action: utter_card_type1
+  - intent: affirm
+  - action: utter_great 
+
+- story: credit card ppp2 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_positive1_binary_response
+  - intent: affirm
+  - action: utter_positive2_multiple_response
+  - intent: multicheck6
+  - action: utter_card_type2
+  - intent: affirm
+  - action: utter_great 
+
+- story: credit card ppp3 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_positive1_binary_response
+  - intent: affirm
+  - action: utter_positive2_multiple_response
+  - intent: multicheck6
+  - action: utter_card_type3
+  - intent: affirm
+  - action: utter_great 
+
+- story: credit card ppp4 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_positive1_binary_response
+  - intent: affirm
+  - action: utter_positive2_multiple_response
+  - intent: multicheck6
+  - action: utter_card_type4
+  - intent: affirm
+  - action: utter_great 
+
+- story: credit card ppp5 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_positive1_binary_response
+  - intent: affirm
+  - action: utter_positive2_multiple_response
+  - intent: multicheck6
+  - action: utter_card_type5
+  - intent: affirm
+  - action: utter_great 
+
+- story: credit card ppp6 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_positive1_binary_response
+  - intent: affirm
+  - action: utter_positive2_multiple_response
+  - intent: multicheck6
+  - action: utter_card_type6
+  - intent: affirm
+  - action: utter_great 
+
 - story: intro_path
   steps:
   - intent: greet

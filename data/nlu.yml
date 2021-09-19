@@ -20,15 +20,33 @@ nlu:
 - intent: multicheck1
   examples: |
     - 1
+    - Shopping credit cards
+
+- intent: multicheck2
+  examples: |
     - 2
+    - Lifestyle credit cards
+
+- intent: multicheck3
+  examples: |
     - 3
+    - Fuel credit cards
+
+- intent: multicheck4
+  examples: |
     - 4
+    - Rewards credit cards
+
+- intent: multicheck5
+  examples: |
     - 5
+    - Cashback credit cards
+
+- intent: multicheck6
+  examples: |
     - 6
-    - none
-    - no
-    - nota
-    - none of the above
+    - Travel credit cards
+
 
 # - intent: working
 #   examples: |

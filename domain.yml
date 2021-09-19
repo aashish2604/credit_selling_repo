@@ -10,6 +10,12 @@ intents:
   - bot_challenge
   - working
   - info
+  - multicheck1
+  - multicheck2
+  - multicheck3
+  - multicheck4
+  - multicheck5
+  - multicheck6
   
 
 responses:
@@ -23,29 +29,38 @@ responses:
   - text: "We are now offering different types of credit cards for our customers. \n Having our credit card can give you various benefits like welcome gifts, reward programs, fuel surcharge waiver, cashback benefits, travel benefits, add-on cards, emi conversions, etc. Based on our customer user experience we offer various different types of cards. \n Would you like to know about them?"
 
   utter_positive2_multiple_response:
-  - text: "Pick an appropriate option to know about the respective card \n(example- to know about Fuel credit cards type 3) :- \n 1. Shopping credit cards \n 2. Lifestyle credit cards \n 3. Fuel credit cards \n 4. Rewards credit cards \n 5. Cashback credit cards \n 6. Travel credit cards"
+  - text: "Which of the following cards would you like to know about :- \n 1. Shopping credit cards \n 2. Lifestyle credit cards \n 3. Fuel credit cards \n 4. Rewards credit cards \n 5. Cashback credit cards \n 6. Travel credit cards"
 
+  utter_great:
+  - text: "That's great! Your response has been noted. Our team member will contact you soon \n Have a great day."
+
+  utter_rejection_exit:
+  - text: "That's fine. Please ping me whenever you would like to know about it"
+  
   utter_honorable_exit:
   - text: "Thank you for your time. \n Have a good day."
 
+  utter_card_rejection:
+  - text: "Think again. I am sure you would never regret having one"
+
   utter_card_type1:
-  - text: "Shopping credit cards are one of the most popular categories of credit cards that have been widely accepted by people of different age groups.These are typically affordable with an annual fee starting from Rs. XXX. The benefits offered on the cards including the welcome gifts, reward points, deals and discounts, etc., revolve round the shopping category."
-
+  - text: "Shopping credit cards are one of the most popular categories of credit cards that have been widely accepted by people of different age groups.These are typically affordable with an annual fee starting from Rs. XXX. The benefits offered on the cards including the welcome gifts, reward points, deals and discounts, etc., revolve round the shopping category. \n Would you like to own one?"
+  
   utter_card_type2:
-  - text: "If you’re looking for a credit card that provides a whole lot of benefits covering major areas of your life, then you should ideally go for a lifestyle credit card. With changing lifestyles and preferences, credit card issuers are adding more and more privileges to offer credit cards with comprehensive lifestyle benefits. It offers travel savings, dining privileges, airport lounge access, health and wellness benefits, concierge services, savings on fuel spends, movie ticket offers, insurance cover."
-
+  - text: "If you’re looking for a credit card that provides a whole lot of benefits covering major areas of your life, then you should ideally go for a lifestyle credit card. With changing lifestyles and preferences, credit card issuers are adding more and more privileges to offer credit cards with comprehensive lifestyle benefits. It offers travel savings, dining privileges, airport lounge access, health and wellness benefits, concierge services, savings on fuel spends, movie ticket offers, insurance cover. \n Would you like to own one?"
+  
   utter_card_type3:
-  - text: "Fuel credit cards provide accelerated reward points on fuel spends, fuel surcharge waiver facility, reward points redemption against fuel purchases, and other value back benefits, enabling users to keep fuel costs under check. Apart from lowering the expenses with regards to purchasing fuel, this card provides other privileges such as getting reward points, redemption of points earned, eligibility for cashback and turbo points, dining offers, BookMyShow offer, waiver of annual fees, eligibility for telecom benefits and concierge service."
-
+  - text: "Fuel credit cards provide accelerated reward points on fuel spends, fuel surcharge waiver facility, reward points redemption against fuel purchases, and other value back benefits, enabling users to keep fuel costs under check. Apart from lowering the expenses with regards to purchasing fuel, this card provides other privileges such as getting reward points, redemption of points earned, eligibility for cashback and turbo points, dining offers, BookMyShow offer, waiver of annual fees, eligibility for telecom benefits and concierge service. \n Would you like to own one?"
+  
   utter_card_type4:
-  - text: "Rewards credit cards offer the primary advantage of reward points programs and their redemption options. The reward points help you save your hard-earned money and give you the best experience of using a credit card. By spending these cards on popular categories like online and merchant store shopping, travel and holidays, dining, etc., you earn reward points in bulk. Also, to redeem the accumulated points, you get a number of good and diverse options. Some of the kry rewards which we offer are rewards on every transaction, accelerated rewards, milestone rewards, exciting rewards."
+  - text: "Rewards credit cards offer the primary advantage of reward points programs and their redemption options. The reward points help you save your hard-earned money and give you the best experience of using a credit card. By spending these cards on popular categories like online and merchant store shopping, travel and holidays, dining, etc., you earn reward points in bulk. Also, to redeem the accumulated points, you get a number of good and diverse options. Some of the kry rewards which we offer are rewards on every transaction, accelerated rewards, milestone rewards, exciting rewards. \n Would you like to own one?"
 
   utter_card_type5:
-  - text: "Cashback credit cards offer cashback, cash rebates, and other money-saving benefits on most of the credit card spend. Choosing this card gives you more benefit compared to a regular cashback card.When used properly cashback credit cards significantly reduce your card's annual maintenance. You can thus enjoy the benefits offered by your money back card free for life time."
+  - text: "Cashback credit cards offer cashback, cash rebates, and other money-saving benefits on most of the credit card spend. Choosing this card gives you more benefit compared to a regular cashback card.When used properly cashback credit cards significantly reduce your card's annual maintenance. You can thus enjoy the benefits offered by your money back card free for life time. \n Would you like to own one?"
 
   utter_card_type6:
-  - text: "Travel credit cards offer a wide range of benefits that can be availed by the credit cardholders while enjoying their holiday. From offering welcome gifts to providing complimentary airport lounge access and fee waivers, travel credit cards offer a wide variety of features and benefits catering the needs of frequent travellers. Some of the privileges are bonus air miles, complimentary membership to airport programs and airline programs, free lounge access to both domestic and international airports, accelerated reward points on airline related spends, reward point redemption for air miles, discount offers on air ticket bookings, priority check-in at partner airlines, extra baggage allowance, etc."
-
+  - text: "Travel credit cards offer a wide range of benefits that can be availed by the credit cardholders while enjoying their holiday. From offering welcome gifts to providing complimentary airport lounge access and fee waivers, travel credit cards offer a wide variety of features and benefits catering the needs of frequent travellers. Some of the privileges are bonus air miles, complimentary membership to airport programs and airline programs, free lounge access to both domestic and international airports, accelerated reward points on airline related spends, reward point redemption for air miles, discount offers on air ticket bookings, priority check-in at partner airlines, extra baggage allowance, etc. \n Would you like to own one?"
+  
   utter_working_confr:
   - text: "Yes Bro All Good"
 
