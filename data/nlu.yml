@@ -1,6 +1,7 @@
 version: "2.0"
 
 nlu:
+
 - intent: greet
   examples: |
     - hey
@@ -46,21 +47,6 @@ nlu:
   examples: |
     - 6
     - Travel credit cards
-
-
-# - intent: working
-#   examples: |
-#     - are you working fine
-#     - are you ok
-#     - will you give correct output
-#     - what is your gender
-
-# - intent: info
-#   examples: |
-#     - Intro de apna
-#     - Intro
-#     - Intro de bosdike
-    
 
 - intent: goodbye
   examples: |

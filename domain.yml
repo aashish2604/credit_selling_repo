@@ -8,8 +8,6 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - working
-  - info
   - multicheck1
   - multicheck2
   - multicheck3
@@ -20,52 +18,45 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hey there! I am a virtual assistant and I am here to clear your queries about credit card. \n Our company has launched its flagship credit card scheme. May I tell you about it?"
+  - text: "Hey There! Welcome to CreditCard Support Assistance Desk.\nI am a Virtual Bot . I can help you with any query about Credit Card. \n Do you have a prior knowledge of credit cards?"
 
-  # utter_rejection_response:
-  # - text: "It would take only a few minutes. May I continue?"
+  utter_greet1:
+  - text: "That's absolutely fine.\n A credit card is an instrument to help you make instant credit based transactions.Unlike debit cards which are linked to your bank accounts and debit the corresponding amount for every transaction, credit cards offer you the flexibility to make transactions on credit independent of your account balance. These amounts however are repayable at the end of a pre-specified credit period, and each credit card involves a credit limit beyond which transactions cannot be made.\n Our company has launched its flagship credit card scheme. \n May I tell you about it?"
 
-  utter_positive1_binary_response:
+  utter_positive1binaryresponse:
   - text: "We are now offering different types of credit cards for our customers. \n Having our credit card can give you various benefits like welcome gifts, reward programs, fuel surcharge waiver, cashback benefits, travel benefits, add-on cards, emi conversions, etc. Based on our customer user experience we offer various different types of cards. \n Would you like to know about them?"
 
-  utter_positive2_multiple_response:
+  utter_positive2multipleresponse:
   - text: "Which of the following cards would you like to know about :- \n 1. Shopping credit cards \n 2. Lifestyle credit cards \n 3. Fuel credit cards \n 4. Rewards credit cards \n 5. Cashback credit cards \n 6. Travel credit cards"
 
   utter_great:
   - text: "That's great! Your response has been noted. Our team member will contact you soon .\n Have a great day."
 
-  utter_rejection_exit:
+  utter_rejectionexit:
   - text: "That's fine. Please ping me whenever you change your mind"
-  
-  # utter_honorable_exit:
-  # - text: "Thank you for your time. \n Have a good day."
 
-  utter_card_rejection:
-  - text: "Think again. I am sure you would never regret having one"
-
-  utter_card_type1:
-  - text: "Shopping credit cards are one of the most popular categories of credit cards that have been widely accepted by people of different age groups.These are typically affordable with an annual fee starting from Rs. XXX. The benefits offered on the cards including the welcome gifts, reward points, deals and discounts, etc., revolve round the shopping category. \n Would you like to own one?"
+  utter_inquire:
+  - text: "Would you like to own one?"
   
-  utter_card_type2:
-  - text: "If you’re looking for a credit card that provides a whole lot of benefits covering major areas of your life, then you should ideally go for a lifestyle credit card. With changing lifestyles and preferences, credit card issuers are adding more and more privileges to offer credit cards with comprehensive lifestyle benefits. It offers travel savings, dining privileges, airport lounge access, health and wellness benefits, concierge services, savings on fuel spends, movie ticket offers, insurance cover. \n Would you like to own one?"
+  utter_cardtype1:
+  - text: "Shopping credit cards are one of the most popular categories of credit cards that have been widely accepted by people of different age groups.These are typically affordable with an annual fee starting from Rs. XXX. The benefits offered on the cards including the welcome gifts, reward points, deals and discounts, etc., revolve round the shopping category."
   
-  utter_card_type3:
-  - text: "Fuel credit cards provide accelerated reward points on fuel spends, fuel surcharge waiver facility, reward points redemption against fuel purchases, and other value back benefits, enabling users to keep fuel costs under check. Apart from lowering the expenses with regards to purchasing fuel, this card provides other privileges such as getting reward points, redemption of points earned, eligibility for cashback and turbo points, dining offers, BookMyShow offer, waiver of annual fees, eligibility for telecom benefits and concierge service. \n Would you like to own one?"
+  utter_cardtype2:
+  - text: "If you’re looking for a credit card that provides a whole lot of benefits covering major areas of your life, then you should ideally go for a lifestyle credit card. With changing lifestyles and preferences, credit card issuers are adding more and more privileges to offer credit cards with comprehensive lifestyle benefits. It offers travel savings, dining privileges, airport lounge access, health and wellness benefits, concierge services, savings on fuel spends, movie ticket offers, insurance cover."
   
-  utter_card_type4:
-  - text: "Rewards credit cards offer the primary advantage of reward points programs and their redemption options. The reward points help you save your hard-earned money and give you the best experience of using a credit card. By spending these cards on popular categories like online and merchant store shopping, travel and holidays, dining, etc., you earn reward points in bulk. Also, to redeem the accumulated points, you get a number of good and diverse options. Some of the kry rewards which we offer are rewards on every transaction, accelerated rewards, milestone rewards, exciting rewards. \n Would you like to own one?"
-
-  utter_card_type5:
-  - text: "Cashback credit cards offer cashback, cash rebates, and other money-saving benefits on most of the credit card spend. Choosing this card gives you more benefit compared to a regular cashback card.When used properly cashback credit cards significantly reduce your card's annual maintenance. You can thus enjoy the benefits offered by your money back card free for life time. \n Would you like to own one?"
-
-  utter_card_type6:
-  - text: "Travel credit cards offer a wide range of benefits that can be availed by the credit cardholders while enjoying their holiday. From offering welcome gifts to providing complimentary airport lounge access and fee waivers, travel credit cards offer a wide variety of features and benefits catering the needs of frequent travellers. Some of the privileges are bonus air miles, complimentary membership to airport programs and airline programs, free lounge access to both domestic and international airports, accelerated reward points on airline related spends, reward point redemption for air miles, discount offers on air ticket bookings, priority check-in at partner airlines, extra baggage allowance, etc. \n Would you like to own one?"
+  utter_cardtype3:
+  - text: "Fuel credit cards provide accelerated reward points on fuel spends, fuel surcharge waiver facility, reward points redemption against fuel purchases, and other value back benefits, enabling users to keep fuel costs under check. Apart from lowering the expenses with regards to purchasing fuel, this card provides other privileges such as getting reward points, redemption of points earned, eligibility for cashback and turbo points, dining offers, BookMyShow offer, waiver of annual fees, eligibility for telecom benefits and concierge service."
   
-  utter_working_confr:
-  - text: "Yes Bro All Good"
+  utter_cardtype4:
+  - text: "Rewards credit cards offer the primary advantage of reward points programs and their redemption options. The reward points help you save your hard-earned money and give you the best experience of using a credit card. By spending these cards on popular categories like online and merchant store shopping, travel and holidays, dining, etc., you earn reward points in bulk. Also, to redeem the accumulated points, you get a number of good and diverse options. Some of the kry rewards which we offer are rewards on every transaction, accelerated rewards, milestone rewards, exciting rewards."
 
-  utter_give_info:
-  - text: "I am a Bot. \n I am from Punjab National Bank. \n I am Rasa Bot .\n My hobby is chatting din raat"
+  utter_cardtype5:
+  - text: "Cashback credit cards offer cashback, cash rebates, and other money-saving benefits on most of the credit card spend. Choosing this card gives you more benefit compared to a regular cashback card.When used properly cashback credit cards significantly reduce your card's annual maintenance. You can thus enjoy the benefits offered by your money back card free for life time."
+
+  utter_cardtype6:
+  - text: "Travel credit cards offer a wide range of benefits that can be availed by the credit cardholders while enjoying their holiday. From offering welcome gifts to providing complimentary airport lounge access and fee waivers, travel credit cards offer a wide variety of features and benefits catering the needs of frequent travellers. Some of the privileges are bonus air miles, complimentary membership to airport programs and airline programs, free lounge access to both domestic and international airports, accelerated reward points on airline related spends, reward point redemption for air miles, discount offers on air ticket bookings, priority check-in at partner airlines, extra baggage allowance, etc."
+  
+  #####################
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -82,6 +73,35 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  ################
+
+  utter_giveinfo:
+  - text: "Let me welcome you sir to abc bank where I will help you in buying credit cards\n Sir are you interested in buying credit cards?"
+
+  utter_nikalja:
+  - text: "ok sir/mam then , thanks for your time.\n Have a nice day sir/mam!!!"
+
+  utter_request:
+  - text: "but sir/mam it will just take 2 minutes of your's to know about its intresting features that most of the people around you is availing now."
+
+  utter_askcredit:
+  - text: "sir/mam are you familiar about credit cards?"
+
+  utter_noworry:
+  - text: "not to worry sir/mam I will help you out.\nsir/mam A credit card is an instrument to help you make instant credit based transactions.Unlike debit cards which are linked to your bank accounts and debit the corresponding amount for every transaction, credit cards offer you the flexibility to make transactions on credit independent of your account balance. These amounts however are repayable at the end of a pre-specified credit period, and each credit card involves a credit limit beyond which transactions cannot be made.\n: was that helpful?"
+
+  utter_extra:
+  - text: "In addition to the usual benefits of credit card our bank will provide you with some other benifits and gift voucher also.\nso sir/mam can I take your decision as positive for buying credit card?"
+
+  utter_details:
+  - text: "now I will provide you with the details of our bank staff\nand he will reach you soon!!!\nName : qwerty\ndesignation : clerk\nphone number : 123456789"
+
+  utter_greatSir:
+  - text: "great sir/mam!!!\nour bank is well reputed for its concern towards customers and its much easy process of verification and validation of cards and other documents.\nsir/mam not just that our bank will provide you with some other benifits and gift voucher also .\nso sir/mam can I take your decision as positive for buying credit card?"
+
+  utter_kid:
+  - text: "Have a nice day sir, Bye!!!"
 
 session_config:
   session_expiration_time: 60
